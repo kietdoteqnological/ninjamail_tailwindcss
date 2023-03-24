@@ -9,7 +9,7 @@ const NavBar: React.FC = () => {
     <nav
       className="h-[62px] left-0 right-0 top-0 pt-[9px] px-3 
                     md:h-[66px] xl:h-[102px]
-                    xl:pt-5 xl:px-16"
+                    xl:pt-5 xl:px-16 fixed z-30 bg-white"
     >
       <div className="flex min-w-full gap-[30px] md:justify-between">
         <a href="#" className="flex text-[22px] font-black pt-[5px]">
@@ -18,13 +18,14 @@ const NavBar: React.FC = () => {
 
         <ul
           className="pr-[1px] md:pr-[4px] md:flex pt-[11px] 
-        tracking-[0.825px] font-extrabold 
-        md:gap-[15px] xl:gap-[24px] text-[11px] xl:text-[17px] xl:pr-9"
+                     tracking-[0.825px] font-extrabold
+                     md:gap-[16px] xl:gap-[24px] text-[11px] xl:text-[17px] xl:pr-9"
         >
           {navBarItem.map((item, idx) => {
             return (
               <li
-                className="hidden w-[71px] lg:w-[110px] pt-[3px] md:flex flex-col items-center gap-[3px]"
+                className="hidden w-[71px] lg:w-[110px] pt-[6px] md:flex flex-col items-center gap-[3px]
+                           md:leading-[13px] xl:gap-1.5 xl:pt-[12px]"
                 key={idx}
               >
                 <a href="#" className="">
@@ -34,7 +35,7 @@ const NavBar: React.FC = () => {
               </li>
             );
           })}
-          <li className="bg-btnBgColor w-[110px] h-[25px] flex px-[6px] py-[13.5px] text-white xl:w-[168px] xl:h-[41px]">
+          <li className="bg-btnBgColor w-[110px] h-[25px] flex px-[6px] py-[13.5px] text-white xl:w-[168px] xl:h-[41px] md:py-[12.5px] xl:py-[11.5px]">
             <a href="#" className="text-center w-full self-center">
               SIGN UP FREE
             </a>

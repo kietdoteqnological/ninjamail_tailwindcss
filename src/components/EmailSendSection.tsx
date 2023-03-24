@@ -30,7 +30,7 @@ const EmailSendSection: React.FC = () => {
   ];
 
   return (
-    <section className="pt-[47px] md:pt-[141px] xl:pt-[217px]">
+    <section className="pt-[47px] md:pt-[141px] xl:pt-[217px] z-10">
       <div className="flex px-12 flex-col gap-[59px] md:gap-[25px] z-10">
         <div className="flex flex-col gap-[21px] w-full md:flex-row md:gap-[19.5px] lg:gap-8 lg:justify-center">
           {listMember.map((member) => {

@@ -2,7 +2,7 @@ import React from "react";
 
 const GetStartedSection: React.FC = () => {
   return (
-    <section className="pt-[58px] md:pt-[95px] xl:pt-[146px]">
+    <section className="pt-[58px] md:pt-[95px] xl:pt-[146px] z-10">
       <div
         className="w-full h-[290px] bg-btnBgColor 
                          md:h-[240px] xl:h-[366px]"

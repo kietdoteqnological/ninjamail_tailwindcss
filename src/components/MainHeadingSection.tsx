@@ -6,9 +6,9 @@ const MainHeadingSection: React.FC = () => {
   return (
     <section>
       <div
-        className="relative px-[9px] pt-[14px] flex flex-col gap-[98px]
-                   md:pt-[67px] md:px-[28px] md:gap-[17px] 
-                   lg:px-36 xl:px-44 xl:pt-[103px] xl:gap-[23px] "
+        className="relative px-[9px] pt-[76px] flex flex-col gap-[98px]
+                   md:pt-[133px] md:px-[28px] md:gap-[17px] 
+                   lg:px-36 xl:px-44 xl:pt-[205px] xl:gap-[23px] "
       >
         <div className="flex flex-col relative pr-[18px] md:pl-[1px]">
           <h1
